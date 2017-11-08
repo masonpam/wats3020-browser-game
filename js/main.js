@@ -116,12 +116,12 @@ class TicTacToe {
     }
     switchPlayer(){
       console.log('Switching player.');
-        // switching between players after each move.  
+         // switching between players after each move.  
       
         if (this.currentPlayer === this.player1) { 
             this.currentPlayer = this.player2;
         } else {
-            this.currenPlayer = this.player1;
+            this.currentPlayer = this.player1;
         }
 
             // reflect the current player's token.
