@@ -112,7 +112,7 @@ class TicTacToe {
       
         this.gameState[tileX][tileY] = this.currentPlayer.token;
       
-        event.target.setAttribute('class',  this.currentPlayerToken.setAttribute('class', `tile played glyphicon glyphicon-${this.currentPlayer.token}`)
+        event.target.setAttribute('class',  this.currentPlayerToken.setAttribute('class', `tile played glyphicon glyphicon-${this.currentPlayer.token}`);
     }
     switchPlayer(){
       console.log('Switching player.');
