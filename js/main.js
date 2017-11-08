@@ -1,7 +1,7 @@
 /* WATS 3020 Browser Game project */
 /* Build a tic tac toe game for two players. */
 
-.
+
 class Player {
   constructor(token){
     this.token = token;
